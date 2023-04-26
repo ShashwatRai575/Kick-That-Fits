@@ -1,4 +1,4 @@
-name: KickThatFits
+name: KTF
 description: A new Flutter project.
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -38,6 +38,9 @@ dependencies:
   flutter:
     sdk: flutter
   url_launcher: ^6.1.10
+  font_awesome_flutter: ^10.4.0
+  flutter_riverpod: ^2.3.2
+  supercharged: ^2.1.1
 
 dev_dependencies:
   flutter_test:
@@ -97,6 +100,11 @@ flutter:
       - assets/kids/kids6.png
       - assets/kids/kids7.png
       - assets/kids/kids8.png
+      - assets/team.png
+      - assets/team/naksh.jpeg
+      - assets/team/nandani.jpeg
+      - assets/team/sahil.jpeg
+      - assets/team/shashwat.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
